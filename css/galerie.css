@@ -1,0 +1,511 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+.blank{
+  height: 50px;
+}
+.blank1{
+  height: 200px;
+}
+.head{
+  background-image: url("../image/back2.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  color: white;
+  }
+.header{
+      height: 70PX;
+      overflow: hidden;
+      width: auto;
+      margin: auto;
+      display:flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+  }
+  .header > *{
+  margin:15px 0;
+  }
+  
+  .menu li {
+  display: inline-block;
+  margin-left: 10px;
+  }
+  .menu{
+      display: flex;
+      align-items: center;
+  }
+  .menu p{
+      margin: 0px 10px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+.ic{
+  position: absolute;
+  top: 7%;
+  RIGHT: 5%;
+  display: none;
+
+}
+#menucheck{
+  display: none;
+}
+#menucheck:checked ~ .menu{
+  visibility: visible;
+}
+.center{
+ width: 82%;
+ margin: auto;
+ margin-top: 50px;
+}
+.center h1{
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 700;   
+  text-align: center;
+  margin-top: 20%;
+
+}
+
+
+  /* Les Images*/
+.img1
+   {
+    width: 47%;
+    height: 622px;
+    background-image: url(../image/burj-dubai.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+.img2
+   {
+      width: 50%;
+      height: 700px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+.img2-1
+    {
+      margin-left: 3%;
+      margin-top: 9%;
+      width: 90%;
+      height: 45%;
+      background-size: cover;
+      background-image: url(../image/Palm.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.img2-2
+    {
+      width: 90%;
+      height: 45%;
+      background-size: cover;
+      background-image: url(../image/9.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-left: 3%;
+      margin-top: 4%;
+    }
+.img4
+    {    
+       width: 58%;
+      height: 515px;
+      background-image: url(../image/12.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-left: -8%;
+      margin-bottom: 19%;
+    
+    }
+.img3
+    {
+      width: 47%;
+      height: 706px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-bottom: 7%;
+    }
+.img3-1
+    {
+      width: 73%;
+      height: 45%;
+      margin-top: -2%;
+      margin-left: 6%;
+      background-size: cover;
+      background-image: url(../image/safari-desierto.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+  
+    }
+.img3-2
+    {  
+      margin-left: 6%;
+      margin-top: 5%;
+      width: 73%;
+      height: 45%;
+      background-size: cover;
+      background-image: url(../image/13.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.img5
+    {
+      width: 62%;
+      height: 788px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+.img5-1
+    {
+      width: 96%;
+      height: 52%;
+      margin-top: -15%;
+      margin-left: 4%;
+      background-size: cover;
+      background-image: url(../image/burj-arab.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.img5-2
+    { 
+      width: 97%;
+      height: 52%;
+      background-size: cover;
+      background-image: url(../image/10.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 4%;
+      margin-left: 4%;
+      
+    }
+.img6
+    {
+      width: 38%;
+      height: 706px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+.img6-1
+    {
+        width: 88%;
+        margin-bottom: 6%;
+        margin-left: 5%;
+        margin-top: -60%;
+        height: 39%;
+        background-size: cover;
+        background-image: url(../image/sharjah.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+.img6-2
+    {   
+       width: 89%;
+      margin-bottom: 6%;
+      margin-left: 5%;
+      height: 39%;
+      background-size: cover;
+      background-image: url(../image/zoco-oro.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.img6-3
+    {    
+      width: 89%;
+      margin-left: 5%;
+      height: 39%;
+      background-size: cover;
+      background-image: url(../image/mezquita-jumeirah.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+/* new section */
+.text_sec
+{
+  width: 100%;
+  margin: 50px auto 10px;
+
+
+}
+.text_sec h1{
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 30px;
+  letter-spacing: 4px;
+      color: #726c58;
+}
+
+.center p{
+  margin-top: 40px;
+}
+.center a{
+  
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  width: 110px;
+  padding: 7px 0px 8px 13px;
+  text-decoration: none;
+  position: relative;
+  margin: 70px 0;
+}
+
+.last{
+display: flex;
+margin: auto;
+justify-content: SPACE-EVENLY;
+width: 95%;
+line-height: 28px;
+
+}
+
+.d4 p{
+  margin-bottom: 30px;
+}
+.last .d1{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.d1 p{
+  width:90%;
+}
+.d2 {
+  width: 20%;
+}
+.d4{
+  width:25%;
+}
+.last .d2 li {
+list-style-type: none;
+}
+footer{
+  height: 40px;
+  margin: auto;
+  background-color: #688095;
+  padding: 10px 10%;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+footer div{
+  width: 50%;
+  display: inline-block;
+}
+footer a{
+  margin-left: 14px;
+}
+
+@media (max-width:1024px)
+{
+  .menu{
+      font-size: small;
+  }
+  .center h1 {
+      font-size: 60px;
+  }
+}
+@media (max-width:800px)
+{
+  .divs_container{
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  #img2 , #img3,#img4{
+      margin: auto;
+  }
+  .menu{
+      visibility: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 90%;
+  position: absolute;
+  top: 40px;
+  height: 90vh;
+  z-index: 9;
+
+  }
+  .menu ul{
+      width: 100%;
+      padding-top: 5px;
+  }
+  .menu li{
+      display: block;
+      font-size: 30px;
+      margin: auto;
+      margin-bottom: 17px;
+      border-bottom: white solid;
+      
+  }
+  .menu p {
+      text-align: center;
+      margin: auto;
+      font-size: 17px;
+      
+  }
+  .header{
+      flex-direction:column;
+      height: auto;
+      overflow: initial;
+  }
+  .ic{
+      display: block;
+  }
+  .center h1 {
+      font-size: 50px;
+  }
+  .navigateur {
+      display: none;
+  }
+  
+footer{
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+}
+footer div{
+  width: 100%;
+  
+}
+footer .copy{
+  margin-top: 10px;
+}
+}
+@media(max-width:750px){
+  .wrapp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapp .img1{
+  
+  width: 100%;
+  margin: 0;
+}
+.wrapp .img2{
+  width: 100%;
+  margin: 0;
+}
+.wrapp .img2-1{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 3%;
+}
+.wrapp .img2-2{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 3%;
+}
+.wrapp .img3{
+  margin: 0;
+  width: 100%;
+}
+.wrapp .img3-1{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 28%;
+}
+.wrapp .img3-2{
+  margin: 0;
+  width: 100%;
+  height: 55%;
+  margin-top: 3%;
+}
+.wrapp .img4{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+}
+.wrapp .img5{
+  margin: 0;
+  width: 100%;
+}
+.wrapp .img5-1{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 52%;
+}
+.wrapp .img5-2{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 3%;
+}
+.wrapp .img6{
+  margin: 0;
+  width: 100%;
+}
+.wrapp .img6-1{
+  margin: 0;
+  width: 100%;
+  height: 55%;
+  margin-top: 80%;
+
+}
+.wrapp .img6-2{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 3%;
+}
+.wrapp .img6-3{
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  margin-top: 3%;
+}
+
+  .last .d1{
+      flex-direction: column-reverse;
+      width: 90%;
+      text-align: center;
+  }
+  .last .d2{
+      width: 90%;
+      text-align: center;
+      
+  }
+  .last .d2 li {
+      list-style-type: none;
+  }
+
+  .last .d4{
+      width: 90%;
+      text-align: center;
+  }
+  .last{
+      flex-direction: column;
+      align-items: center;    
+      margin-top:210%;
+  }
+}
